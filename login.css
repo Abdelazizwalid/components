@@ -1,0 +1,74 @@
+body
+{
+    background-color: rgba(30, 143, 255, 0.192);
+}
+
+.login
+{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-self: center;
+    border: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%; 
+    display: block;
+    position: static;
+    border-style:groove;
+}
+input
+{
+    display: block;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: .2;
+
+}
+::placeholder
+{
+    text-align: center;
+}
+button
+{
+    width: 50%;
+    height: 50px;
+    background-color: dodgerblue;
+    color: white;
+    opacity: 0.9;
+    border: none;
+
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+img{
+    width: 100px;
+    border-radius: 120px;
+    margin-top: 45px;
+    opacity: .5;
+}
+hr{
+    display: block;
+    color: blue;
+    margin-top: 25px;
+    width: 60%;
+}
+span
+{
+    display: block;
+    margin-top: 20px;
+}
+footer
+{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}

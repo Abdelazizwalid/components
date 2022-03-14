@@ -1,0 +1,19 @@
+.header {
+    background-color: #fafafa;
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    top: 0%;
+    left: 0ch;
+    text-align: center;
+};
+p,h2{
+    color: #121c4e;
+    position: relative;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+};
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}

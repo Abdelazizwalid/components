@@ -1,0 +1,96 @@
+body
+{
+    background-image: url("https://3.bp.blogspot.com/-B5ELAwZBS2I/XNTwclI8r6I/AAAAAAAANNM/u-hoGYH8I3w4h6hOcKCXMTp3UU3E2anxgCLcBGAs/s1600/background%2Bpowerpoint%2Bmedical%2Bstethoscope.JPG");
+}
+
+form
+{
+    text-align: center;
+    align-items: center;
+    border: 2px;
+    border-color: aqua;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: static;
+}
+.input_form
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    
+}
+
+h1
+{
+    color: rgb(9, 43, 43);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    position: static;
+
+}
+input
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: .1;
+    box-sizing: content-box;
+    text-align: left;
+    height: 40px;
+    width: 195px;
+    
+    border-radius: 5px;
+    position: static;
+
+    
+}
+.serial_code, .gmail , .pass
+{
+    display: block;
+    width: 440px;
+    position:static;
+margin-left: auto;
+margin-right: auto;
+
+}
+::placeholder
+{
+    position: static;
+    color: gray;
+}
+.signup
+{
+    width: 440px;
+    background-color: rgb(6, 110, 214);
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    position: static;
+    color: aliceblue;
+
+}
+.have
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 15%;
+        position: static;
+
+}
+footer
+{
+    margin-top: 20px;
+}
+.id
+{
+    display: block;
+}

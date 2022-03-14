@@ -1,0 +1,51 @@
+.info
+{
+    position: relative;
+    text-align: center;
+    top: 100px;
+
+}
+.slid
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline;
+}
+.contentspan
+{
+    display: inline;
+}
+.column {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+}
+.contentimg
+{
+    width: 50px;
+    opacity: 1;
+}
+.main_p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large
+}
+.sub_p
+{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hr_content
+{
+    display: block;
+    width: 50%;
+    color: blue;
+    margin-bottom: auto;
+}
