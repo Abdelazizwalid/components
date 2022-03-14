@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Router } from 'react-router-dom';
 import { Route,Routes, Switch } from 'react-router-dom';
 
-import { withRouter } from 'react-router-dom';
 
 
 //import Forgot from './components/forgot';
@@ -20,7 +19,11 @@ class App extends Component {
         return (   
         <React.Fragment>
                <NavBar/>
-          
+            <Router>
+                <Switch>
+                <Route path='Login' component={Login}></Route>
+                </Switch>
+            </Router>
         </React.Fragment>
         );
     }
